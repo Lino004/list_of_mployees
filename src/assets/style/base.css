@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  overflow: hidden; 
+  width: 100%;
+}
+
+.h-content {
+  height: calc(100vh - 64px);
+}
